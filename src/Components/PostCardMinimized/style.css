@@ -1,0 +1,40 @@
+.postCardMinified > .post-image {
+  margin-right: 42px;
+  max-width: 17.5vw;
+  width: 17.5vw;
+  height: 17.5vw;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 1200px) {
+  .postCardMinified > .post-image {
+    margin-right: 37px;
+  }
+}
+
+@media (max-width: 992px) {
+  .postCardMinified > .post-image {
+    max-width: 17.5vw;
+    width: 17.5vw;
+    height: 17.5vw;
+    margin-right: 31px;
+  }
+}
+
+@media (max-width: 768px) {
+  .postCardMinified > .post-image {
+    max-width: 21.5vw;
+    width: 21.5vw;
+    height: 21.5vw;
+    margin-right: 42px;
+  }
+}
+
+@media (max-width: 576px) {
+  .postCardMinified > .post-image {
+    max-width: 90vw;
+    width: 76vw;
+    height: 76vw;
+    margin-right: 0;
+  }
+}
